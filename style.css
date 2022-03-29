@@ -1,0 +1,38 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.headercontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1em;
+    font-weight: 500;
+    font-size: large;
+}
+
+.navbar{
+    width: 100%;
+}
+
+nav > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #19a000;
+    flex-wrap: wrap;
+}
+
+li{
+    margin: 2em;
+    list-style: none;
+    color: azure;
+    min-width:fit-content;
+}
+
+li > a{
+    text-decoration: none;
+    color: azure;
+}
