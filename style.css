@@ -25,14 +25,39 @@ nav > ul{
     flex-wrap: wrap;
 }
 
-li{
+nav > ul > li{
     margin: 2em;
     list-style: none;
     color: azure;
     min-width:fit-content;
 }
 
-li > a{
+nav > ul > li > a{
     text-decoration: none;
     color: azure;
+}
+
+.welcome{
+    display: flex;
+    justify-content: center;
+}
+
+span.greentext{
+    color:#19a000;
+    text-align: right;
+    font-size:larger;
+    font-weight: 600;
+    margin-bottom: 2em;
+
+}
+
+section.updates{
+    font-size:large;
+    width: 50%;
+    float: right;
+}
+
+.raffle{
+    float: left;
+    margin-left: 10%;
 }
